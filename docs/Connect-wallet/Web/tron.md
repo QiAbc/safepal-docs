@@ -28,4 +28,4 @@ try {
 
 ## sendTransaction
 
-SafePal wallet currently only supports the TriggerSmartContract method, please refer to:[https://developers.tron.network/docs/tronlink-integration](https://developers.tron.network/docs/tronlink-integration)
+SafePal wallet currently only supports the TriggerSmartContract method, please refer to:[https://developers.tron.network/reference/tronweb-triggersmartcontract](https://developers.tron.network/reference/tronweb-triggersmartcontract)
