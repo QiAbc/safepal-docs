@@ -36,7 +36,8 @@ You can  use third-party libraries in conjunction with `window.safepalProvider`
     -  [web3js](https://www.npmjs.com/package/web3)
     -  [ethers](https://www.npmjs.com/package/ethers)
   -  npm
-      - [web3modal](https://www.npmjs.com/package/web3modal) 
+      - [web3modal](https://www.npmjs.com/package/web3modal)
+      - [@rainbow-me/rainbowkit](https://www.npmjs.com/package/@rainbow-me/rainbowkit)  [demo](https://github.com/rainbow-me/rainbowkit/tree/main/packages/example) 
 ```js
 //npm install web3modal  
 import web3modal from 'web3modal';
