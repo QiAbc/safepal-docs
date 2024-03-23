@@ -97,7 +97,8 @@ module.exports = (_ctx) => ({
                     "Web/solana",
                     "Web/tron",
                     "Web/aptos",
-                    "Web/sui"
+                    "Web/sui",
+                    "Web/ton"
                   ]
                 },
                 {
