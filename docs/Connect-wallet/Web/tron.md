@@ -10,7 +10,7 @@
 const isSafePalInstalled = window.SafePalHook && window.tronWeb;
 ```
 
-## eth_requestAccounts(request authorization to connect)
+## tron_requestAccounts(request authorization to connect)
 
 ```js
 try {
