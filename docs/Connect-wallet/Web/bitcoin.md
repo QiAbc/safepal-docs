@@ -350,37 +350,6 @@ try {
 > IMEo3yzgqJKlmc38IqlP3YjadVOnXmVR6fqeDhtVdiyHUbitYlO2CFUHUgGtM1/cjWsWoGVhTv6pyvj9L/kNT5A=
 ```
 
-### pushTx
-
-```typescript
-safepalBRC20Provider.pushTx(options)
-```
-
-Push Transaction
-
-#### Parameters
-
-* `options` - `Object`:
-    - `rawtx` - `string`:  rawtx to push
-
-#### Returns
-
-* `Promise` - `string`: txid
-
-#### Example
-
-```typescript
-try {
-  let txid = await window.safepalBRC20Provider.pushTx({
-    rawtx:"0200000000010135bd7d..."
-  });
-  console.log(txid)
-} catch (e) {
-  console.log(e);
-}
-```
-
-
 
 
 ### signPsbt
@@ -406,31 +375,6 @@ This method will traverse all inputs that match the current address to sign.
 ```typescript
 try {
   let res = await window.safepalBRC20Provider.signPsbt("70736274ff01007d....");
-  console.log(res)
-} catch (e) {
-  console.log(e);
-}
-```
-
-### pushPsbt
-
-```typescript
-safepalBRC20Provider.pushPsbt(psbtHex)
-```
-Push transaction
-#### Parameters
-
-* `psbtHex` - `string`: the hex string of psbt to push
-
-#### Returns
-
-* `Promise` - `string`: txid
-
-#### Example
-
-```typescript
-try {
-  let res = await window.safepalBRC20Provider.pushPsbt("70736274ff01007d....");
   console.log(res)
 } catch (e) {
   console.log(e);
