@@ -99,7 +99,8 @@ module.exports = (_ctx) => ({
                     "Web/aptos",
                     "Web/sui",
                     "Web/ton",
-                    "Web/bitcoin"
+                    "Web/bitcoin",
+                    "Web/multiversX"
                   ]
                 },
                 {
